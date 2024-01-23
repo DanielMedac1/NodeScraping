@@ -1,0 +1,58 @@
+/* Estilos para el contenedor de cada elemento */
+#noticias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.elemento {
+  max-width: 400px;
+  margin: 5px;
+  /* Reduzco el margen alrededor del contenedor */
+  padding: 5px;
+  /* Reduzco el espaciado interno del contenedor */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título del elemento */
+.titutloElemento {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la descripción del elemento */
+.descripcionElemento {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Estilos para el botón "Leer más" */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Estilos para la imagen del elemento */
+.card-img-bottom {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Estilos para la línea horizontal */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
+iframe {
+  display: block;
+  margin: auto;
+}
